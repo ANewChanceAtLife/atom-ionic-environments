@@ -4,4 +4,8 @@ Pick the environment to run your Ionic commands in, currently only supports serv
 
 Current environments are Debug and Release.
 
-You can also start and stop the Ionic serve command using a UI button in the statusbar of the atom IDE
+You can also start and stop the Ionic serve command using a UI button in the status bar of the atom IDE.
+
+## Note
+
+Make sure you have an ionic.config.json file in the root of your project
