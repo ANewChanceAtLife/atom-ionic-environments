@@ -1,10 +1,10 @@
 {
-  "name": "ionicenvironments",
+  "name": "atom-ionic-environments",
   "main": "./lib/ionicenvironments",
   "version": "0.0.0",
   "description": "Change the environment currently being used to render the Ionic/Cordova app.",
   "keywords": [],
-  "repository": "",
+  "repository": "https://github.com/MattCMcNabb/atom-ionic-environments.git",
   "license": "MIT",
   "engines": {
     "atom": "*"
