@@ -1,0 +1,21 @@
+{
+  "context-menu": {
+    ".overlayer": [
+      {
+        "label": "Change Ionic Build Environment",
+        "command": "ionicenvironments:show"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Build",
+      "submenu": [
+        {
+          "label": "Select Ionic Build Environment",
+          "command": "ionicenvironments:show"
+        }
+      ]
+    }
+  ]
+}

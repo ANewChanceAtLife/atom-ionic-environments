@@ -1,0 +1,47 @@
+{
+  "name": "ionicenvironments",
+  "main": "./lib/ionicenvironments",
+  "version": "0.0.0",
+  "description": "Change the environment currently being used to render the Ionic/Cordova app.",
+  "keywords": [],
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {
+    "atom-select-list": "^0.3.2",
+    "node-cmd": "^3.0.0",
+    "ps-node": "^0.1.6"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "standard": {
+    "globals": [
+      "atom",
+      "beforeEach",
+      "describe",
+      "expect",
+      "it",
+      "jasmine",
+      "spyOn"
+    ]
+  },
+  "configSchema": {
+    "currentEnvironment": {
+      "title": "Currently Selected Environment",
+      "type": "string",
+      "default": "Debug",
+      "order": 1,
+      "enum": [
+        "Debug",
+        "Release"
+      ]
+    }
+  }
+}
