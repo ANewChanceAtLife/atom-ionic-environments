@@ -1,5 +1,5 @@
 {
-  "name": "atom-ionic-environments",
+  "name": "atom-ionicenvironments",
   "main": "./lib/ionicenvironments",
   "version": "0.0.0",
   "description": "Change the environment currently being used to render the Ionic/Cordova app.",
