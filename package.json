@@ -1,7 +1,7 @@
 {
   "name": "atom-ionicenvironments",
   "main": "./lib/ionicenvironments",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Change the environment currently being used to render the Ionic/Cordova app.",
   "keywords": [],
   "repository": "https://github.com/MattCMcNabb/atom-ionic-environments.git",
@@ -46,14 +46,14 @@
     "serveOptions": {
       "type": "object",
       "properties": {
-        "Debug" : {
+        "Debug": {
           "title": "Additional options to run with ionic serve when debugging",
           "description": "Example: --lab, --platform android, --no-open, See: [ionic serve](https://ionicframework.com/docs/cli/serve/)",
           "type": "string",
           "default": "",
           "order": 2
         },
-        "Release" : {
+        "Release": {
           "title": "Additional options to run with ionic serve when releasing",
           "description": "Example: --env=prod, See: [ionic serve](https://ionicframework.com/docs/cli/serve/)",
           "type": "string",
